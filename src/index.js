@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const TodoList = () => {
-  return (
-    <ul>
-      <li>Learn React</li>
-      <li>Build Awesome App</li>
-    </ul>
-  )
-};
+import TodoList from './components/todo-list'
 
 const AppHeader = () => {
   return (
@@ -21,6 +13,7 @@ const SearchPanel = () => {
 };
 
 const App = () => {
+
   return (
     <div>
       <AppHeader/>
