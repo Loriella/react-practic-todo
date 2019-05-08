@@ -4,4 +4,6 @@
 
 .item-add-form input {
     margin-right: 3px;
+    width: 0;
+    flex-grow: 1;
 }
